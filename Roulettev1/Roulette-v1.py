@@ -1,5 +1,4 @@
 import random
-import time
 
 black=[15, 4, 2, 17, 6, 13, 11, 8, 10, 24, 33, 20, 31, 22, 29, 28, 35, 26]               #This is a list of all black numbers
 red=[32, 19, 21, 25, 34, 27, 36, 30, 23, 5, 16, 1, 14, 9, 18, 7, 12, 3]              #List of red numbers
@@ -24,7 +23,7 @@ def inputnumber():            #Number input function
             x=int(input("Choose a number: "))
             if ((x < 0) or (x > 36)):                   #The number provided must be between 0 & 36.
                 n = 0
-                print("You need to chose a number between 0 and 36!")
+                print("You need to choose a number between 0 and 36!")
             else:
                 break
         except ValueError:
