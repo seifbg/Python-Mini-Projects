@@ -17,7 +17,7 @@ def alarm(set_alarm_timer):     #The main function in this program, it will comp
         print(now)
         if now == set_alarm_timer:
             print("Time to wake up")
-            winsound.PlaySound("Alarm01", winsound.SND_ASYNC)
+            winsound.PlaySound("Alarm01", winsound.SND_ASYNC). #You can add any sound here, you only need to add the sound file into the python project folder
             break
 
 def actual_time():                          #A function to verify the input before applying the alarm() function.
